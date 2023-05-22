@@ -17,32 +17,36 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
       <IoClose size={45} onClick={() => setMenuIsVisible(false)}/>
       <nav className='menu'>
       <Link
-          onClick={scroll.scrollToTop}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}>Home</Link>
+        style={{cursor: "pointer"}}
+        onClick={scroll.scrollToTop}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}>Home</Link>
 
-        <Link to='sobre'
-          onClick={() => setMenuIsVisible(false)}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={600}>Sobre</Link>
+      <Link to='sobre'
+        style={{cursor: "pointer"}}
+        onClick={() => setMenuIsVisible(false)}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={600}>Sobre</Link>
 
-        <Link to='habilidades'
-          onClick={() => setMenuIsVisible(false)}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={600}>Habilidades</Link>
+      <Link to='habilidades'
+        style={{cursor: "pointer"}}
+        onClick={() => setMenuIsVisible(false)}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={600}>Habilidades</Link>
 
-        <Link to='projetos'
-          onClick={() => setMenuIsVisible(false)}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={600}>Projetos</Link>
+      <Link to='projetos'
+        style={{cursor: "pointer"}}
+        onClick={() => setMenuIsVisible(false)}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={600}>Projetos</Link>
       </nav>
     </Container>
   )

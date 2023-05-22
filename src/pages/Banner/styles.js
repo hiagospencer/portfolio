@@ -50,6 +50,11 @@ export const Apresentacao = styled.div`
               transform: translateY(0);
              }
         }
+
+        @media screen and (max-width: 768px){
+            right: 8%;
+            bottom: 13%;
+        }
     }
 
     @media screen and (max-width: 768px){

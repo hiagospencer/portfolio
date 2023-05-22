@@ -74,6 +74,17 @@ export const Img = styled.img`
     height: 350px;
     margin-left: 20%;
 
+    @media screen and (max-width: 825px){
+        width: 300px;
+        margin-left: 18%;
+    }
+
+    @media screen and (max-width: 768px){
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+
 `;
 
 
