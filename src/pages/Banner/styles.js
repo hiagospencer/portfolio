@@ -67,7 +67,7 @@ export const Apresentacao = styled.div`
 export const Name = styled.h1`
     font-size: 46px;
     font-weight: 700;
-    color: #2FDA2B;
+    color: white;
 
     @media screen and (max-width: 768px){
         font-size: 36px;

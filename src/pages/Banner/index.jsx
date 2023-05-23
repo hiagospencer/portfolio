@@ -20,7 +20,7 @@ export default function index() {
        <Apresentacao>
           < FaArrowUp onClick={scroll.scrollToTop} />
           <Paragrafo>
-            OLÁ, EU SOU
+              OLÁ, EU SOU
           </Paragrafo>
 
           <Name>
@@ -32,7 +32,7 @@ export default function index() {
           </Name>
 
           <Paragrafo>
-            DESENVOLVEDOR FRONT-END
+            DESENVOLVEDOR FRONT-END 
           </Paragrafo>
 
        </Apresentacao>
