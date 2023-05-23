@@ -11,9 +11,6 @@ export const Projects = [
     title: "Landing Pages",
     description: "Projeto desenvolvido para uma acadêmia CrossFit.",
     link: "https://rl-cross-traning.vercel.app/",
-    tecnologia: {
-      name: [' React','HTML', 'CSS'],
-    },
   },
   {
     id: 2,
@@ -21,9 +18,6 @@ export const Projects = [
     title: "Landing Pages",
     description: "Projeto desenvolvido duranto o curso da Danki Code.",
     link: "https://endearing-flan-ca0e0f.netlify.app/" ,
-    tecnologia: {
-      name: ['HTML', 'CSS', 'JavaScript'],
-    },
   },
   {
     id: 3,
@@ -31,9 +25,6 @@ export const Projects = [
     title: "Landing Pages",
     description: "Projeto Clínica Odontológica desenvolvido durante o curso da Danki Code.",
     link: "https://clinica-odontologia.netlify.app/",
-    tecnologia: {
-      name: ['HTML', 'CSS', 'JavaScript'],
-    },
   },
   {
     id: 4,
@@ -41,9 +32,6 @@ export const Projects = [
     title: "Acadêmico",
     description: "Projeto de Perguntas e respotas sobre o Jogo GTA 5.",
     link: "https://quiz-gta.netlify.app/",
-    tecnologia: {
-      name: ['HTML', 'CSS', 'JavaScript'],
-    },
   },
 ]
 
