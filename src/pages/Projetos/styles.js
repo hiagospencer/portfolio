@@ -85,20 +85,6 @@ export const Descricao = styled.p`
 `;
 
 
-export const Tecnologias = styled.span`
-    margin-left: 10px;
-    padding-top: 7px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-
-    svg {
-        font-size: 30px;
-        margin: 20px 0;
-    }
-`;
-
 export const Button = styled.a`
     display: block;
     margin: 10px auto;

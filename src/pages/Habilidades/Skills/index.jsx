@@ -13,47 +13,31 @@ import postgresql from '../../../assets/images/post.png';
 import sql from '../../../assets/images/sql.png';
 
 export default function index() {
+
+    const imagens = [
+        {link: html},
+        {link: css},
+        {link: javascript},
+        {link: react},
+        {link: styled},
+        {link: python},
+        {link: django},
+        {link: postgresql},
+        {link: sql},
+        {link: git},
+    ]
+
+    const image = imagens.map((img) => (
+        <GridSkill key={img.link.toLowerCase()}>
+            <Skill src={img.link} />
+        </GridSkill>
+    ));
+
+
+
   return (
     <Skills>
-        <GridSkill>
-            < Skill src={html} alt="logo html"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={css} alt="logo css"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={javascript} alt="logo javascript"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={react} alt="logo react"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={styled} alt="logo python"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={python} alt="logo python"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={django} alt="logo django"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={sql} alt="logo sql"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={postgresql} alt="logo postgresql"/>
-        </GridSkill>
-
-        <GridSkill>
-            < Skill src={git} alt="logo git"/>
-        </GridSkill>
+        {image}
     </Skills>
   )
 }

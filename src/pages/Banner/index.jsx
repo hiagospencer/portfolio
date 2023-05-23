@@ -32,7 +32,7 @@ export default function index() {
           </Name>
 
           <Paragrafo>
-            DESENVOLVEDOR FRONT-END 
+            DESENVOLVEDOR FRONT-END
           </Paragrafo>
 
        </Apresentacao>
