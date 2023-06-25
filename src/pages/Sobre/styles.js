@@ -67,15 +67,14 @@ export const BoxImg = styled.div`
 `;
 
 export const Img = styled.img`
-    border-radius: 50%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     border: 4px solid white;
-    width: 350px;
     max-width: 100%;
-    height: 350px;
     margin-left: 20%;
 
     @media screen and (max-width: 825px){
-        width: 300px;
+
         margin-left: 18%;
     }
 

@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa";
 import { Container, Title, Perfil, SubTitle,
      Biografia, BoxImg, Descricao, Img, Button } from './styles';
 
-import imagem from '../../assets/images/hiago.jpg';
+import imagem from '../../assets/images/hiaguinho.jpeg';
 import curriculo from '../../assets/arquivos/curriculo.pdf';
 
 export default function index({id}) {

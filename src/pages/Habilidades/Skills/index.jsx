@@ -12,7 +12,9 @@ import django from '../../../assets/images/django.png';
 import postgresql from '../../../assets/images/post.png';
 import sql from '../../../assets/images/sql.png';
 
+
 export default function index() {
+
 
     const imagens = [
         {link: html},
@@ -27,9 +29,13 @@ export default function index() {
         {link: git},
     ]
 
+
+
     const image = imagens.map((img) => (
-        <GridSkill key={img.link.toLowerCase()}>
-            <Skill src={img.link} />
+        <GridSkill
+         key={img.link.toLowerCase()}
+        >
+            <Skill src={img.link}/>
         </GridSkill>
     ));
 
@@ -39,5 +45,6 @@ export default function index() {
     <Skills>
         {image}
     </Skills>
+
   )
 }

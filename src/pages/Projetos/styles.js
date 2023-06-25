@@ -33,12 +33,13 @@ export const Title = styled.h1`
 export const BoxProjeto = styled.div`
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 50px;
 
     @media screen and (max-width: 768px){
         flex-direction: column;
     }
+
 `;
 
 export const Projeto = styled.div`
@@ -46,11 +47,12 @@ export const Projeto = styled.div`
     background-color: #303030;
     border-radius: 7px;
     border: #303030 1px solid;
-    transition: 1s all ease;
+    transition: 200ms ease-in;
+
 
     &:hover{
         border: 1px solid #1CA33A;
-        transform: scale(1.04);
+        transform: scale(1.03);
     }
 
     @media screen and (max-width: 768px){

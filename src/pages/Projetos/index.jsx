@@ -1,6 +1,4 @@
 
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
 
 import { FadeIn} from 'react-slide-fade-in';
 
@@ -16,7 +14,8 @@ import { FaArrowRight, } from "react-icons/fa";
 export default function index({id}) {
 
   const apiProjeto = Projects.map((project) => (
-    <Projeto key={project.id}>
+    <Projeto className="projeto"
+       key={project.id}>
         <a href={project.link} target='_blank' rel="noreferrer"><Img src={project.img} /></a>
         <Titulo>{project.title}</Titulo>
         <Descricao>{project.description}</Descricao>
@@ -32,7 +31,7 @@ export default function index({id}) {
         triggerOffset={200}
         delayInMilliseconds={400}
       >
-       <BoxProjeto>{apiProjeto}</BoxProjeto>
+       <BoxProjeto className="box_projeto">{apiProjeto}</BoxProjeto>
       </FadeIn>
     </Container>
   )
