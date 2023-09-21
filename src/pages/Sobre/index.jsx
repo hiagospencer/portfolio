@@ -8,7 +8,7 @@ import { Container, Title, Perfil, SubTitle,
      Biografia, BoxImg, Descricao, Img, Button } from './styles';
 
 import imagem from '../../assets/images/hiaguinho.jpeg';
-import curriculo from '../../assets/arquivos/curriculo.pdf';
+import curriculo from '../../assets/arquivos/curriculo1.pdf';
 
 export default function index({id}) {
   return (
@@ -26,9 +26,10 @@ export default function index({id}) {
           >
             <SubTitle>Quem eu sou?</SubTitle>
             <Descricao>
-            Eu sou o Hiago, tenho 30 anos, sou apaixonado por tecnologia. Sou um Desenvolvedor Front-End em formação. Moro em Areia Branca/RN. atualmente estou estudando a tecnologia REACT JS.
-
-            Tenho o objetivo de ingressar na área de tecnologia, em busca da minha primeira oportunidade.
+            Eu sou o Hiago, tenho 30 anos, sou apaixonado por tecnologia. Sou um Desenvolvedor FullStack em formação.
+            Atualmente estou agregando conhecimento adquiridos em <b>Bootcamps e Cursos</b>.
+            Busco uma oportunidade para mostrar minha garra,
+            minhas habilidades e meu talento, que só vão somar em qualquer empresa.
             </Descricao>
             <Button
                 href={curriculo}

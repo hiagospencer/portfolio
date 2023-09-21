@@ -11,6 +11,9 @@ import python from '../../../assets/images/python2.png';
 import django from '../../../assets/images/django.png';
 import postgresql from '../../../assets/images/post.png';
 import sql from '../../../assets/images/sql.png';
+import java from '../../../assets/images/java.png';
+import angular from '../../../assets/images/Angular.png';
+
 
 
 export default function index() {
@@ -26,6 +29,8 @@ export default function index() {
         {link: django},
         {link: postgresql},
         {link: sql},
+        {link: java},
+        {link: angular},
         {link: git},
     ]
 
