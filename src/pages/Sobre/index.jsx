@@ -26,10 +26,8 @@ export default function index({id}) {
           >
             <SubTitle>Quem eu sou?</SubTitle>
             <Descricao>
-            Eu sou o Hiago, tenho 30 anos, sou apaixonado por tecnologia. Sou um Desenvolvedor FullStack em formação.
-            Atualmente estou agregando conhecimento adquiridos em <b>Bootcamps e Cursos</b>.
-            Busco uma oportunidade para mostrar minha garra,
-            minhas habilidades e meu talento, que só vão somar em qualquer empresa.
+            Eu sou Hiago Souza, nascido e criado na cidade de Areia Branca/RN. Sou Desenvolvedor Front-End altamente qualificado. Tenho habilidades proficientes nas tecnologias HTML, CSS, JAVASCRIPT, REACT JS, STYLED COMPONENTS entre outras. Sou um entusiasta por esportes, amante de música e leitor ávido.
+            Sou um profissional comprometido e orientado para resultados, continuando a trilhar um caminho de sucesso na área de Desenvolvimento Front-end.
             </Descricao>
             <Button
                 href={curriculo}
