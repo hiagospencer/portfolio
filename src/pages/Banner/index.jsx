@@ -25,14 +25,14 @@ export default function index() {
 
           <Name>
             <MaquinaDeEscrever
-              text="HIAGO JOSÉ DE SOUZA"
+              text="HIAGO SOUZA"
               delay={1300}
               esconderCursor>
             </MaquinaDeEscrever>
           </Name>
 
           <Paragrafo>
-            DESENVOLVEDOR FRONT-END
+            DESENVOLVEDOR FULLSTACK
           </Paragrafo>
 
        </Apresentacao>

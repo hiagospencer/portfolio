@@ -26,8 +26,8 @@ export default function index({id}) {
           >
             <SubTitle>Quem eu sou?</SubTitle>
             <Descricao>
-            Eu sou Hiago Souza, nascido e criado na cidade de Areia Branca/RN. Sou Desenvolvedor Front-End altamente qualificado. Tenho habilidades proficientes nas tecnologias HTML, CSS, JAVASCRIPT, REACT JS, STYLED COMPONENTS entre outras. Sou um entusiasta por esportes, amante de música e leitor ávido.
-            Sou um profissional comprometido e orientado para resultados, continuando a trilhar um caminho de sucesso na área de Desenvolvimento Front-end.
+            Eu sou Hiago Souza, nascido e criado na cidade de Areia Branca/RN. Sou Desenvolvedor FullStack altamente qualificado. Tenho habilidades proficientes nas tecnologias HTML, CSS, JAVASCRIPT, REACT JS, STYLED COMPONENTS, PYTHON, DJANGO entre outras. Sou um entusiasta por esportes, amante de música e leitor ávido.
+            Sou um profissional comprometido e orientado para resultados, continuando a trilhar um caminho de sucesso na área de Desenvolvimento Web.
             </Descricao>
             <Button
                 href={curriculo}
