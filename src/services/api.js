@@ -2,7 +2,7 @@
 import crossfit from './../assets/images/crossfit.jpeg';
 import agencia from './../assets/images/agencia.jpeg';
 import dentista from './../assets/images/dentista.jpeg';
-import quiz from './../assets/images/quiz.jpeg';
+import blog from './../assets/images/blog-django.jpeg';
 import agencyCreative from './../assets/images/agency-creative.jpeg';
 import rlCrossFit from './../assets/images/rl-cross-site.png';
 
@@ -30,10 +30,10 @@ export const Projects = [
   },
   {
     id: 4,
-    img: quiz,
-    title: "Quiz sobre o jogo GTA",
-    description: "Projeto de Perguntas e respotas sobre o Jogo GTA 5.",
-    link: "https://quiz-gta.netlify.app/",
+    img: blog,
+    title: "Blog HS NEWS",
+    description: "Blog desenvolvido com as tecnologias: HTML, CSS, JAVASCRIPT, PYTHON e DJANGO.",
+    link: "https://hiagosouza.pythonanywhere.com/",
   },
   {
     id: 5,

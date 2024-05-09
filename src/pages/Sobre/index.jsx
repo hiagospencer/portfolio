@@ -8,7 +8,7 @@ import { Container, Title, Perfil, SubTitle,
      Biografia, BoxImg, Descricao, Img, Button } from './styles';
 
 import imagem from '../../assets/images/hiaguinho.jpeg';
-import curriculo from '../../assets/arquivos/curriculo1.pdf';
+import curriculo from '../../assets/arquivos/Curriculo - Hiago Souza.pdf';
 
 export default function index({id}) {
   return (
